@@ -34,9 +34,7 @@ public class MainActivity extends AppCompatActivity {
         arbi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                t = Toast.makeText(getApplicationContext(),"Build in Progress",Toast.LENGTH_SHORT);
-                t.setGravity(Gravity.CENTER,0,0);
-               // t.show();
+
                 System.out.println("Surah Yaseen  = "+R.string.surah_yaseen_arabi);
                 surah.setText(R.string.surah_yaseen_arabi);
             }
